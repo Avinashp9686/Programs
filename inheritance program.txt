@@ -1,0 +1,16 @@
+#include <iostream>  
+using namespace std;  
+ class Account {  
+   public:  
+   float salary = 6000;   
+ };  
+   class inheritance: public Account {  
+   public:  
+   float bonus = 5000;    
+   };       
+int main(void) {  
+     inheritance i1;  
+     cout<<"Salary: "<<i1.salary<<endl;    
+     cout<<"Bonus: "<<i1.bonus<<endl;    
+    return 0;  
+} 

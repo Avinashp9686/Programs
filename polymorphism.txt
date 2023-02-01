@@ -1,0 +1,30 @@
+
+#include <iostream>  
+using namespace std;  
+class Polymorphism{
+    public:
+    string name;
+    public:
+    void print(){
+        cout<<"Enter your name"<<endl;
+        cin>>name;
+        cout<<"The name is "<<name<<endl;
+    }
+};
+class Place{
+    public:
+    string name;
+    public:
+    void get(){
+        cout<<"Enter the name of place"<<endl;
+        cin>>name;
+        cout<<"The name of place is"<<name<<endl;
+    }
+};
+int main(){
+    Polymorphism P;
+    Place p1;
+    P.print();
+    p1.get();
+    
+}
